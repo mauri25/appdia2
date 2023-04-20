@@ -1,0 +1,84 @@
+<div class="container cyan lighten-3">
+
+  <div class="row">
+    <div class="col s12 m12 l12 ">
+    <div class="card-panel teal"> <span class=" Georgia bold white-text ">Calendario</span> </div>  
+      </div>
+     
+    </div>
+
+<div class="row">
+    <div class="col s12 l12 m12">
+      <div class="calendar">
+        <div class="header">
+          <a data-action="prev-month" href="javascript:void(0)" title="Previous Month"><i></i></a>
+          <div class="text" data-render="month-year"></div>
+          <a data-action="next-month" href="javascript:void(0)" title="Next Month"><i></i></a>
+        </div>
+        <div class="months" data-flow="left">
+          <div class="month month-a">
+            <div class="render render-a"></div>
+          </div>
+          <div class="month month-b">
+            <div class="render render-b"></div>
+          </div>
+        </div>
+      </div>
+
+</div>
+    </div>
+
+    <div class="row">
+      <a [routerLink]="['/tareas']" class="waves-effect waves-light btn-large"><i class="material-icons left">book</i>Crear tarea</a>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m12 l12 ">
+      <div class="card-panel teal"> <span class=" Georgia bold white-text ">Lista de tareas</span> </div>  
+        </div>
+       
+      </div>
+
+      <div class="row">
+        <div class="col s12 l12 m12">
+          <form action="#">
+            
+            <p>
+              <label>
+                <input type="checkbox" class="filled-in" checked="checked" />
+                <span>Lunes 19 de de Octubre, parcial de Interfaces II.</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" class="filled-in" checked="checked" />
+                <span>Martes 20 de Octubre, parcial de Infografia. </span>
+              </label>
+            </p>
+           
+           
+          </form>
+                
+        </div>
+      </div>
+
+    <div class="row">
+        <div class="col s2 l2 m2"></div>
+          <div class="col s8 m8 l8">
+          <nav class="teal center">
+            <div class="center_nav ">
+              <ul>
+                <li><a [routerLink]="['/inicio']">Cerrar Seccion</a></li>
+                <li><a [routerLink]="['/perfil']"><i class="large material-icons">account_circle</i></a></li>
+                <li><a [routerLink]="['/calendario']"><i class="large material-icons">event</i></a></li>
+                <li><a [routerLink]="['/apuntes']"><i class="large material-icons">school</i></a></li>
+                <li><a [routerLink]="['/videos']"><i class="large material-icons">movie</i></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col s2 l2 m2"></div>
+        </div>
+  
+
+</div>

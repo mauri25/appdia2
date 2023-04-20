@@ -1,0 +1,37 @@
+<div class="container cyan lighten-3">
+    <div class="row">
+
+        <div class="row">
+            <div class="col s12 m12 l12 ">
+            <div class="card-panel teal"> <span class=" Georgia bold white-text ">Videos</span> </div>  
+        </div>
+        </div>
+
+        <div class="row">
+            <a [routerLink]="['/carpeta']" class="waves-effect waves-light btn-large"><i class="material-icons left">queue</i>Crear Carpeta</a>
+        </div>
+        <div class="row">
+            <a [routerLink]="['/listavideos']" class="waves-effect waves-light btn-large"><i class="material-icons left">folder</i>Videos de interfaces</a>
+        </div>
+
+        
+        <div class="row">
+            <div class="col s2 l2 m2"></div>
+              <div class="col s8 m8 l8">
+              <nav class="teal center">
+                <div class="center_nav ">
+                  <ul>
+                    <li><a [routerLink]="['/inicio']">Cerrar Seccion</a></li>
+                    <li><a [routerLink]="['/perfil']"><i class="large material-icons">account_circle</i></a></li>
+                    <li><a [routerLink]="['/calendario']"><i class="large material-icons">event</i></a></li>
+                    <li><a [routerLink]="['/apuntes']"><i class="large material-icons">school</i></a></li>
+                    <li><a [routerLink]="['/videos']"><i class="large material-icons">movie</i></a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="col s2 l2 m2"></div>
+            </div>
+
+    </div>
+</div>
